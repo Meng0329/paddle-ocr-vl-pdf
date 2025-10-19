@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# 模型文件（太大，不上传）
+PaddleOCR-VL/
+*.safetensors
+*.pdmodel
+*.pdiparams
+
+# 输入输出文件
+input/*.pdf
+output/
+results/
+
+# 日志文件
+*.log
+extract_run.log
+nohup.out
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+.cache/
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 进度文件（可选，如果想保留可以注释掉）
+# progress.json
+
+上册/
+中册/
+下册/

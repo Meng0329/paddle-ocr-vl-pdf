@@ -1,0 +1,13 @@
+# PaddlePaddle GPU 版本
+paddlepaddle-gpu==3.2.0
+
+# PaddleOCR
+paddleocr[doc-parser]
+
+# PDF 处理
+pypdfium2
+
+# 其他依赖
+pillow
+numpy
+
